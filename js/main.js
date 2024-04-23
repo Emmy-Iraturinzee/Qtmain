@@ -755,4 +755,6 @@ links.forEach(link => {
 const slider = new Slider();
 
 
-// nav effects
+// hero page
+
+
