@@ -51,7 +51,7 @@
     <link rel="stylesheet" href="css/animate.css">
 
     <!-- Tailwind -->
-    <script src="https://cdn.tailwindcss.com"></script>
+ 
 
     <link rel="stylesheet" href="site/css/style.css">
     <!-- <link rel="stylesheet" href="site/css/bootstrap.css"> -->
@@ -75,15 +75,50 @@
 
 
   
+  
+
     <!-- Navbar Start -->
     <div class="container-fluid sticky-top">
-        
-        
-        <div class="container">
-           
-        </div>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark p-0 ">
+            <a href="index.html" class="navbar-brand">
+                <h1 class="text-white"><img src="img/logo.png" class="logo"></h1>
+            </a>
+            <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto mb-1 navMenu">
+                    
+                    <a href="index.html" class="nav-item nav-link active ">Home</a>
+                    <a href="about.html" class="nav-item nav-link ">About</a>
+                    <a href="solutions.html" class="nav-item nav-link " >Our Solutions</a>
+                
+                    <a href="career.html" class="nav-item nav-link ">Careers</a>
+                    <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                
+                </div>
+              
+
+                
+            </div>
+        </nav>
       
     </div>
+      
+    </div>
+    <!-- Navbar End -->
+    
+    <!-- shooting star -->
+    <div id="layers">
+      <div class="layer"></div>
+      <div class="layer"></div>
+      <div class="layer"></div>
+      <div class="layer"></div>
+      <div class="layer"></div>
+    </div>
+    <!-- particles -->
     <div id="particles-background" class="vertical-centered-box"></div>
     <div id="particles-foreground" class="vertical-centered-box"></div>
     
@@ -102,32 +137,16 @@
 
 
     <!-- Hero Start -->
+
+    
     <div class=" container-fluid py-5 mb-5">
-        <img src="img/logo.png" width="100px" class="img-logo">
+      
+    
         <div class="container mb-5 hero-section" >
         
             <div class="d-flex justify-content-end">
                        
-            <div class=" side-menu ">
-
-                <div id="menuBtn">
-                  <input type="checkbox" />
-                  <span></span>
-                  <span></span>
-                </div>
-                
-               
-                    <div class="menu ">
-                        <a class="menu-item" href="#">HOME</a>
-                        <a class="menu-item" href="about.html">ABOUT US</a>
-                        <a class="menu-item" href="solutions.html">SOLUTIONS</a>
-                        <a class="menu-item" href="careers.html">CAREERS</a>
-                        <a class="menu-item" href="contact.html">CONTACT US</a>
-                      </div>
-                      <div class="straight-line"></div>
-                
             
-              </div>
 
 
             </div>
@@ -140,7 +159,7 @@
                     <div class=" wow fadeIn" data-wow-delay="0.1s">
                         <div class="typewriter ">
                                    
-            <div class="mainText">
+            <div class="mainText mb-3">
               <div class="mainTitle">
                 <div class="typewriter wow bounceInUp  ">
                     <h1 id="text" cla>We Develop, Secure and Deploy cutting-edge digital solutions</h1>
@@ -232,81 +251,93 @@
       
     
     </div>
-  <!-- hero try -->
-  
 
 
        </div>   
 
     </div>
 
+   <!-- Service Start -->
+   <div class="container-fluid bg-light mt-5 py-5">
+    <div class="container py-5">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
+              <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">Our Services</div>
+                <h1 class="text-dark text-4xl md:text-5xl xl:text-6xl font-semibold max-w-3xl mx-auto mb-16 leading-snug mb-4">Our areas of expertise are quite broad</h1>
 
+                <!-- <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam
+                    amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus
+                    clita duo justo et tempor eirmod magna dolore erat amet</p> -->
+                <a class="btn btn-primary rounded-pill px-4" href="#">Read More</a>
+            </div>
+            <div class="col-lg-7">
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="row g-4">
+                            <div class="col-12 wow fadeIn" data-wow-delay="0.1s">
+                                <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                                    <div class="service-icon btn-square">
+                                        <i class="fa fa-mobile fa-2x"></i>
+                                    </div>
+                                    <h5 class="mb-3">Mobile Application Development</h5>
+                                    <p>We specialize in developing mobile applications for various platforms such as iOS and Android.</p>
+                                    <a class="btn px-3 mt-auto mx-auto" href="#">Read More</a>
+                                </div>
+                            </div>
+                            <div class="col-12 wow fadeIn" data-wow-delay="0.5s">
+                                <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                                    <div class="service-icon btn-square">
+                                        <i class="fa fa-laptop fa-2x"></i>
+                                    </div>
+                                    <h5 class="mb-3">Web Application Development</h5>
+                                    <p>We offer web application development services, focusing on building scalable,
+                                         secure, and user-friendly web-based solutions</p>
+                                    <a class="btn px-3 mt-auto mx-auto" href="#">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 pt-md-4">
+                        <div class="row g-4">
+                            <div class="col-12 wow fadeIn" data-wow-delay="0.3s">
+                                <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                                    <div class="service-icon btn-square">
+                                        <i class="fa fa-lock fa-2x"></i>
+                                    </div>
+                                    <h5 class="mb-3">Information Security</h5>
+                                    <p>Information security is a critical aspect of modern software development, 
+                                        and QT Global Software provides expertise in ensuring the security and integrity of digital assets and systems</p>
+                                    <a class="btn px-3 mt-auto mx-auto" href="#">Read More</a>
+                                </div>
+                            </div>
+                            <div class="col-12 wow fadeIn" data-wow-delay="0.7s">
+                                <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                                    <div class="service-icon btn-square">
+                                        <i class="fa fa-cogs fa-2x"></i>
+                                    </div>
+                                    <h5 class="mb-3">Solution integration and maintenance</h5>
+                                    <p>We provide the best in class hardware for all your IT needs.</p>
+                                    <a class="btn px-3 mt-auto mx-auto" href="#">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Service End -->
 
     <!-- Hero End -->
     
-    <div class=" container-fluid py-5 mb-5">
 
-<!-- service 1 -->
-
-<!-- service 1 end -->
-
-
-    <section id="about-us" class="about-us-bg  section-common-space wow slideInRight" style="background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027); margin-top: -100px;" data-wow-offset="10"  >
-      
-<section class="min-h-screen  text-center py-20 px-8 xl:px-0 flex flex-col justify-center">
-    <span class="text-gray-400 text-lg max-w-lg mx-auto mb-2 capitalize flex items-center">what we're offering <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="text-indigo-600 ml-3 w-6 h-6">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
-      </svg>
-    </span>
-    <h1 class="text-white text-4xl md:text-5xl xl:text-6xl font-semibold max-w-3xl mx-auto mb-16 leading-snug">Our areas of expertise are quite broad</h1>
-    <div class="grid-offer text-left grid sm:grid-cols-2 md:grid-cols-2 gap-5 max-w-5xl mx-auto">
-      <div class="card  p-10 relative">
-        <div class="circle">
-        </div>
-        <div class="relative lg:pr-52">
-          <h2 class="capitalize text-white mb-4 text-2xl xl:text-3xl">Mobile Application<br /> Development</h2>
-          <p class="text-gray-400">We specialize in developing mobile applications for various platforms such as iOS and Android.</p>
-        </div>
-        <div class="icon"></div>
-      </div>
-      <div class="card  p-10 relative">
-        <div class="circle">
-        </div>
-        <div class="relative lg:pl-48">
-          <h2 class="capitalize text-white mb-4 text-2xl xl:text-3xl">Web Application  <br /> Development</h2>
-          <p class="text-gray-400">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames.</p>
-        </div>
-      </div>
-      <div class="card  p-10 relative">
-        <div class="circle">
-        </div>
-        <div class="relative lg:pr-44">
-          <h2 class="capitalize text-white mb-4 text-2xl xl:text-3xl">Information Security</h2>
-          <p class="text-gray-400">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames.</p>
-        </div>
-      </div>
-      <div class="card  p-10 relative">
-        <div class="circle">
-        </div>
-        <div class="relative lg:pl-48">
-          <h2 class="capitalize text-white mb-4 text-2xl xl:text-3xl">Solution integration<br />& maintenance</h2>
-          <p class="text-gray-400">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames.</p>
-        </div>
-      </div>
-    </div>
-    </section>
-
-</div>
-<section>
+<section class="about-us-bg">
     <div class=" container-fluid py-5">
         <div class=" container">
             <section class="min-h-screen  text-center py-20 px-8 xl:px-0 flex flex-col justify-center">
                
-                    <span class="text-gray-400 text-lg max-w-lg mx-auto mb-2 capitalize flex items-center">Our Experience <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="text-indigo-600 ml-3 w-6 h-6">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
-                      </svg>
-                    </span>
-                    <h1 class="text-white text-4xl md:text-5xl xl:text-6xl font-semibold max-w-3xl mx-auto mb-4 leading-snug">Over 6 years of Experience</h1>
+                      <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">Our Experience</div>
                 
                
                   <div class="isotope-filters isotope-filters-horizontal">
@@ -370,7 +401,7 @@
                         </div>
                         <div class="thumbnail-classic-caption">
                           <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/grid-gallery-3-1200x800-original.jpg" data-lightgallery="item"><img src="images/fullwidth-gallery-3-420x350.jpg" alt="" width="420" height="350"/></a>
-                            <h5 class="thumbnail-classic-title"><a href="#">Q-Manage</a></h5>
+                            <h5 class="thumbnail-classic-title"><a href="#">QT</a></h5>
                           </div>
                           <p class="thumbnail-classic-text">We work hard on every app to deliver top-notch features with great UI that you won’t find anywhere else.</p>
                         </div>
@@ -388,7 +419,7 @@
                         </div>
                         <div class="thumbnail-classic-caption">
                           <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/grid-gallery-4-1200x800-original.jpg" data-lightgallery="item"><img src="images/fullwidth-gallery-4-420x350.jpg" alt="" width="420" height="350"/></a>
-                            <h5 class="thumbnail-classic-title"><a href="#">WeatherCast</a></h5>
+                            <h5 class="thumbnail-classic-title"><a href="#">P</a></h5>
                           </div>
                           <p class="thumbnail-classic-text">We work hard on every app to deliver top-notch features with great UI that you won’t find anywhere else.</p>
                         </div>
@@ -406,7 +437,7 @@
                         </div>
                         <div class="thumbnail-classic-caption">
                           <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/grid-gallery-5-1200x800-original.jpg" data-lightgallery="item"><img src="images/fullwidth-gallery-5-420x350.jpg" alt="" width="420" height="350"/></a>
-                            <h5 class="thumbnail-classic-title"><a href="#">Home Calendar</a></h5>
+                            <h5 class="thumbnail-classic-title"><a href="#">Z</a></h5>
                           </div>
                           <p class="thumbnail-classic-text">We work hard on every app to deliver top-notch features with great UI that you won’t find anywhere else.</p>
                         </div>
@@ -424,7 +455,7 @@
                         </div>
                         <div class="thumbnail-classic-caption">
                           <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/grid-gallery-6-1200x800-original.jpg" data-lightgallery="item"><img src="images/fullwidth-gallery-6-420x350.jpg" alt="" width="420" height="350"/></a>
-                            <h5 class="thumbnail-classic-title"><a href="#">MPlanner</a></h5>
+                            <h5 class="thumbnail-classic-title"><a href="#">T</a></h5>
                           </div>
                           <p class="thumbnail-classic-text">We work hard on every app to deliver top-notch features with great UI that you won’t find anywhere else.</p>
                         </div>
@@ -442,7 +473,7 @@
                         </div>
                         <div class="thumbnail-classic-caption">
                           <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/grid-gallery-7-1200x800-original.jpg" data-lightgallery="item"><img src="images/fullwidth-gallery-7-420x350.jpg" alt="" width="420" height="350"/></a>
-                            <h5 class="thumbnail-classic-title"><a href="#">Alice Messenger</a></h5>
+                            <h5 class="thumbnail-classic-title"><a href="#">Y</a></h5>
                           </div>
                           <p class="thumbnail-classic-text">We work hard on every app to deliver top-notch features with great UI that you won’t find anywhere else.</p>
                         </div>
@@ -460,7 +491,7 @@
                         </div>
                         <div class="thumbnail-classic-caption">
                           <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/grid-gallery-8-1200x800-original.jpg" data-lightgallery="item"><img src="images/fullwidth-gallery-8-420x350.jpg" alt="" width="420" height="350"/></a>
-                            <h5 class="thumbnail-classic-title"><a href="#">WiseMoney</a></h5>
+                            <h5 class="thumbnail-classic-title"><a href="#">X</a></h5>
                           </div>
                           <p class="thumbnail-classic-text">We work hard on every app to deliver top-notch features with great UI that you won’t find anywhere else.</p>
                         </div>
@@ -476,19 +507,15 @@
 
 
 <!-- Our Products -->
-<div class="container-fluid py-5 about-us-bg"    >
+<div class="container-fluid py-5 bg-light"    >
     <section class="section section-sm  text-md-left"  >
         <div class="container">
           <div class="row row-50 align-items-center justify-content-center justify-content-xl-between">
             <div class="col-lg-6 col-xl-5 wow fadeInLeft">
-                <span class="text-gray-400 text-lg max-w-lg mx-auto mb-2 capitalize flex items-center">Our Products <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="text-indigo-600 ml-3 w-6 h-6">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
-                  </svg>
-                </span>
-                <h1 class="text-white text-4xl md:text-5xl xl:text-6xl font-semibold max-w-3xl mx-auto mb-4 leading-snug">Intuitive Products</h1>
+              <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">Our Products</div>
             
            
-                <p class="about-p ">Our products offer a chance for you to access powerful software solutions without the need for significant upfront investments. Explore our products below: </p>
+                <p class="text-dark ">Our products offer a chance for you to access powerful software solutions without the need for significant upfront investments. Explore our products below: </p>
               <!-- Bootstrap tabs-->
               <div class="tabs-custom tabs-horizontal tabs-line tabs-line-big text-center text-md-left mt-5" id="tabs-6">
                 <!-- Nav tabs-->
@@ -501,18 +528,18 @@
                 <!-- Tab panes-->
                 <div class="tab-content">
                   <div class="tab-pane fade show active" id="tabs-6-1">
-                    <h5 class="text-white">EVENT MANAGEMENT SYSTEM</h5>
-                    <p class="about-p">The QT Event Management System is designed to allow users to customise the solution to their unique needs. From 200 to 2,000+ attendees, QT’s Event Management system is a centralized bespoke solution to cater to the event planner and attendees alike. </p>
+                    <h5 class="text-dark ">EVENT MANAGEMENT SYSTEM</h5>
+                    <p class="text-dark " style="text-align: left;">The QT Event Management System is designed to allow users to customise the solution to their unique needs. From 200 to 2,000+ attendees, QT’s Event Management system is a centralized bespoke solution to cater to the event planner and attendees alike. </p>
                     <div class="group-sm group-middle"><a class="button button-secondary button-pipaluk" href="#modalCta" data-toggle="">Learn More</a></div>
                   </div>
                   <div class="tab-pane fade" id="tabs-6-2">
-                    <h5 class="text-white">VISITORS MANAGEMENT SYSTEM</h5>
-                    <p class="about-p">Our Visitors Management System is a web and mobile-based application with the purpose of helping institutions and companies track, monitor, and manage visitors entering their premises using cutting-edge technology.</p>
+                    <h5 class="text-dark">VISITORS MANAGEMENT SYSTEM</h5>
+                    <p class="text-dark" style="text-align: left;">Our Visitors Management System is a web and mobile-based application with the purpose of helping institutions and companies track, monitor, and manage visitors entering their premises using cutting-edge technology.</p>
                     <div class="group-sm group-middle"><a class="button button-secondary button-pipaluk" href="#modalCta" data-toggle="">Learn More</a></div>
                   </div>
                   <div class="tab-pane fade" id="tabs-6-3">
-                    <h5 class="text-white">QT CONNECT</h5>
-                    <p class="about-p">QT Connect is an end -to- end secure communication application that is made in Rwanda with the aim to secure instant messaging in its entirety. With a high touch application like QT Connect, your employees will be better connected and work-related communication is more secure than ever.</p>
+                    <h5 class="text-dark">QT CONNECT</h5>
+                    <p class="text-dark "  style="text-align: left;">QT Connect is an end -to- end secure communication application that is made in Rwanda with the aim to secure instant messaging in its entirety. With a high touch application like QT Connect, your employees will be better connected and work-related communication is more secure than ever.</p>
                     <div class="group-sm group-middle"><a class="button button-secondary button-pipaluk" href="#modalCta" data-toggle="">Learn More</a></div>
                   </div>
                  <div class="tab-pane fade" id="tabs-6-4">
@@ -561,7 +588,7 @@
                 </div>
              </div>
              <div class="col-lg-4 wow fadeIn testimonials" data-wow-delay="0.5s" style="margin-top: 180px;">
-                <h5 class="about-h1">Testimonial</h5>
+              <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">Testimonials</div>
                 <h1 class="text-white">What Our Clients Say!</h1>
                                
                  <p class="about-p">Our experts know how to turn your idea into a unique, new, and profitable project.</p>
@@ -657,6 +684,8 @@
     <script src="lib/waypoints/waypoints.min.js"></script>
     <script src="lib/counterup/counterup.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <!-- Tailwind -->
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
 
     <!-- hero page -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>

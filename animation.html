@@ -19,7 +19,7 @@
 
     <!-- Favicon -->
     <link href="img/logo.png" rel="icon">
-    <script src="https://cdn.tailwindcss.com"></script>
+
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
@@ -37,207 +37,264 @@
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/nav.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+      <link href="css/style.css" rel="stylesheet">
+      
+    <!-- Tailwind -->
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
 
     <!-- Template Stylesheet -->
 
 </head>
 
 <body>
-
-<style>
-
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,400&display=swap");
-h2 {
-  font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.card {
-  position: relative;
-}
-.card::before {
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 100%;
-  transition: 0.6s;
-  z-index: 0;
-  background-color: #4f46e5;
-}
-.card:hover {
-  box-shadow: 0.063rem 0.063rem 1.25rem 0.375rem rgba(0, 0, 0, 0.53);
-}
-.card:nth-child(1)::before {
-  bottom: 0;
-  right: 0;
-  clip-path: circle(calc(6.25rem + 7.5vw) at 100% 100%);
-}
-.card:nth-child(2)::before {
-  bottom: 0;
-  left: 0;
-  clip-path: circle(calc(6.25rem + 7.5vw) at 0% 100%);
-}
-.card:nth-child(3)::before {
-  top: 0;
-  right: 0;
-  clip-path: circle(calc(6.25rem + 7.5vw) at 100% 0%);
-}
-.card:nth-child(4)::before {
-  top: 0;
-  left: 0;
-  clip-path: circle(calc(6.25rem + 7.5vw) at 0% 0%);
-}
-.card p {
-  transition: 0.8s;
-}
-
-.card:hover::before {
-  clip-path: circle(110vw at 100% 100%);
-}
-
-.card:hover p {
-  color: #fff;
-}
-
-@media screen and (min-width: 62.5rem) {
-  .circle {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: 0;
-  }
-}
-
-.card:nth-child(1) .circle {
-  background: url("https://images.unsplash.com/photo-1587440871875-191322ee64b0?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") no-repeat 50% 50%/cover;
-  bottom: 0;
-  right: 0;
-  clip-path: circle(calc(6.25rem + 7.5vw) at 100% 100%);
-}
-
-.card:nth-child(2) .circle {
-  background: url("https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") no-repeat 50% 50%/cover;
-  bottom: 0;
-  left: 0;
-  clip-path: circle(calc(6.25rem + 7.5vw) at 0% 100%);
-}
-
-.card:nth-child(3) .circle {
-  background: url("https://images.unsplash.com/photo-1557804506-669a67965ba0?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") no-repeat 50% 50%/cover;
-  top: 0;
-  right: 0;
-  clip-path: circle(calc(6.25rem + 7.5vw) at 100% 0%);
-}
-
-.card:nth-child(4) .circle {
-  background: url("https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") no-repeat 50% 50%/cover;
-  top: 0;
-  left: 0;
-  clip-path: circle(calc(6.25rem + 7.5vw) at 0% 0%);
-}
-</style>
-
-<section class="min-h-screen bg-gray-900 text-center py-20 px-8 xl:px-0 flex flex-col justify-center">
-    <span class="text-gray-400 text-lg max-w-lg mx-auto mb-2 capitalize flex items-center">what we're offering <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="text-indigo-600 ml-3 w-6 h-6">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
-      </svg>
-    </span>
-    <h1 class="text-white text-4xl md:text-5xl xl:text-6xl font-semibold max-w-3xl mx-auto mb-16 leading-snug">Services Built Specifically for your Business</h1>
-    <div class="grid-offer text-left grid sm:grid-cols-2 md:grid-cols-2 gap-5 max-w-5xl mx-auto">
-      <div class="card bg-gray-800 p-10 relative">
-        <div class="circle">
-        </div>
-        <div class="relative lg:pr-52">
-          <h2 class="capitalize text-white mb-4 text-2xl xl:text-3xl">uI/uX <br /> creative design</h2>
-          <p class="text-gray-400">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames.</p>
-        </div>
-        <div class="icon"></div>
-      </div>
-      <div class="card bg-gray-800 p-10 relative">
-        <div class="circle">
-        </div>
-        <div class="relative lg:pl-48">
-          <h2 class="capitalize text-white mb-4 text-2xl xl:text-3xl">visual <br /> graphic design</h2>
-          <p class="text-gray-400">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames.</p>
-        </div>
-      </div>
-      <div class="card bg-gray-800 p-10 relative">
-        <div class="circle">
-        </div>
-        <div class="relative lg:pr-44">
-          <h2 class="capitalize text-white mb-4 text-2xl xl:text-3xl">strategy & <br />digital marketing</h2>
-          <p class="text-gray-400">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames.</p>
-        </div>
-      </div>
-      <div class="card bg-gray-800 p-10 relative">
-        <div class="circle">
-        </div>
-        <div class="relative lg:pl-48">
-          <h2 class="capitalize text-white mb-4 text-2xl xl:text-3xl">effective<br /> business growth</h2>
-          <p class="text-gray-400">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames.</p>
-        </div>
-      </div>
-    </div>
- 
-    <div class="overlay-navigation">
-
-      </div>
-  
-    <!-- Spinner Start -->
-
-    </div>
-    <!-- Spinner End -->
-
-
-
-
-    <nav>
-        <ul>
-          <li class="active">
-            <button>Animation</button>
-          </li>
-          <li>
-            <button>Branding</button>
-          </li>
-          <li>
-            <button>Illustration</button>
-          </li>
-        </ul>
-      </nav>
     <!-- Navbar Start -->
-    <div id="WebGL-output">
+    <div class="container-fluid sticky-top">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark p-0 ">
+            <a href="index.html" class="navbar-brand">
+                <h1 class="text-white"><img src="img/logo.png" class="logo"></h1>
+            </a>
+            <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto mb-1 navMenu">
+                    
+                    <a href="index.html" class="nav-item nav-link ">Home</a>
+                    <a href="#about" class="nav-item nav-link ">About</a>
+                    <a href="#services" class="nav-item nav-link active" >Our Solutions</a>
+                
+                    <a href="career.html" class="nav-item nav-link active">Careers</a>
+                    <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                
+                </div>
+              
+
+                
+            </div>
+        </nav>
+      
     </div>
-    
-    <div class="side-menu">
-      <div id="menuBtn">
-        <input type="checkbox" />
-        <span></span>
-        <span></span>
-      </div>
-      <div class="menu">
-        <a class="menu-item" href="#">HOME</a>
-        <a class="menu-item" href="#">ABOUT US</a>
-        <a class="menu-item" href="#">OUR WORK</a>
-        <a class="menu-item" href="#">CAREERS</a>
-        <a class="menu-item" href="#">CONTACT US</a>
-      </div>
-      <div class="straight-line"></div>
+      
     </div>
-    
-    <img class="planetImg" src="https://assets.codepen.io/1651485/planet.png" />
-    
-    <div class="mainText">
-      <div class="mainTitle">
-        Some space technology title
+    <!-- Navbar End -->
+
+  <!-- shooting star -->
+  <div id="layers">
+    <div class="layer"></div>
+    <div class="layer"></div>
+    <div class="layer"></div>
+    <div class="layer"></div>
+    <div class="layer"></div>
+  </div>
+  <!-- particles -->
+  <div id="particles-background" class="vertical-centered-box"></div>
+  <div id="particles-foreground" class="vertical-centered-box"></div>
+  
+  <div class="vertical-centered-box">
+    <div class="content">
+      <div class="loader-circle"></div>
+      <div class="loader-line-mask">
+        <div class="loader-line"></div>
       </div>
-      <div class="subTitle">
-        This is some random text that will go initialy under the main title
-      </div>
-      <div class="cursor"></div>
+      </svg>
     </div>
+  </div>
+  
+  <div id="scroll-progress"></div>
+  <!-- Navbar End -->
+
+
+  <!-- Hero Start -->
+  <div class=" container-fluid py-5 mb-5">
+    
+  
+      <div class="container mb-5 hero-section" >
+      
+          <div class="d-flex justify-content-end">
+                     
+          
+
+
+          </div>
+         
+          <img class="planetImg" src="https://assets.codepen.io/1651485/planet.png" />
+
+          <div class="container">
+              <div class="row">
+                <div class="col-sm-6 align-self-center mt-5">
+                  <div class=" wow fadeIn" data-wow-delay="0.1s">
+                      <div class="typewriter ">
+                                 
+          <div class="mainText">
+            <div class="mainTitle">
+              <div class="typewriter wow bounceInUp  ">
+                  <h1 id="text" cla>We Develop, Secure and Deploy cutting-edge digital solutions</h1>
+      
+              </div>
+            </div>
+         
+            <div class="cursor"></div>
+          </div>
+                       
+                        
+      
+      
+      
+      
+                          
+                      </div>
+                    
+                      <a href="#about" >
+                          <button class="cta">
+                              <span class="hover-underline-animation"> Read More</span>
+                              <svg
+                                id="arrow-horizontal"
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="30"
+                                height="10"
+                                viewBox="0 0 46 16"
+                              >
+                                <path
+                                  id="Path_10"
+                                  data-name="Path 10"
+                                  d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z"
+                                  transform="translate(30)"
+                                ></path>
+                              </svg>
+                            </button>
+                         </a>  
+                     
+                        
+                       
+                  </div>
+                
+                </div>
+            
+      
+      
+                <div class="col align-self-center">
+                
+                </div>
+               
+                <div class="col align-self-end">
+                  <div class=" animated slideInLeft ml-3">
+      
+                  
+                      <a href="#about" class="scroll-wrapper-link" >
+                          <div id="scroll-wrapper">
+                              <div id="scroll-wrapper-inner">
+                              <div id="scroll-title">
+                                Scroll
+                              </div>
+                             <div id="scroll-down">
+                            </div>
+                              </div>
+                              </div>
+                         </a>  
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+          
+          <!-- <div class="mainText">
+            <div class="mainTitle">
+              <div class="typewriter">
+                  <h1 id="text">We Develop, Secure and Deploy cutting-edge digital solutions</h1>
+                
+
+
+
+
+                  
+              </div>
+            </div>
+         
+            <div class="cursor"></div>
+          </div> -->
+      </div>
+      
+    
+  
+  </div>
+   <!-- Service Start -->
+   <div class="container-fluid bg-light mt-5 py-5">
+    <div class="container py-5">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
+                <span class="text-gray-400 text-lg max-w-lg mx-auto mb-2 capitalize flex items-center">what we're offering <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="text-indigo-600 ml-3 w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                  </svg>
+                </span>
+                <h1 class="text-dark text-4xl md:text-5xl xl:text-6xl font-semibold max-w-3xl mx-auto mb-16 leading-snug">Our areas of expertise are quite broad</h1>
+
+                <!-- <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam
+                    amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus
+                    clita duo justo et tempor eirmod magna dolore erat amet</p> -->
+                <a class="btn btn-primary rounded-pill px-4" href="#">Read More</a>
+            </div>
+            <div class="col-lg-7">
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="row g-4">
+                            <div class="col-12 wow fadeIn" data-wow-delay="0.1s">
+                                <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                                    <div class="service-icon btn-square">
+                                        <i class="fa fa-robot fa-2x"></i>
+                                    </div>
+                                    <h5 class="mb-3">Mobile Application Development</h5>
+                                    <p>We specialize in developing mobile applications for various platforms such as iOS and Android.</p>
+                                    <a class="btn px-3 mt-auto mx-auto" href="#">Read More</a>
+                                </div>
+                            </div>
+                            <div class="col-12 wow fadeIn" data-wow-delay="0.5s">
+                                <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                                    <div class="service-icon btn-square">
+                                        <i class="fa fa-power-off fa-2x"></i>
+                                    </div>
+                                    <h5 class="mb-3">Web Application Development</h5>
+                                    <p>We offer web application development services, focusing on building scalable,
+                                         secure, and user-friendly web-based solutions</p>
+                                    <a class="btn px-3 mt-auto mx-auto" href="#">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 pt-md-4">
+                        <div class="row g-4">
+                            <div class="col-12 wow fadeIn" data-wow-delay="0.3s">
+                                <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                                    <div class="service-icon btn-square">
+                                        <i class="fa fa-graduation-cap fa-2x"></i>
+                                    </div>
+                                    <h5 class="mb-3">Information Security</h5>
+                                    <p>Information security is a critical aspect of modern software development, 
+                                        and QT Global Software provides expertise in ensuring the security and integrity of digital assets and systems</p>
+                                    <a class="btn px-3 mt-auto mx-auto" href="#">Read More</a>
+                                </div>
+                            </div>
+                            <div class="col-12 wow fadeIn" data-wow-delay="0.7s">
+                                <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                                    <div class="service-icon btn-square">
+                                        <i class="fa fa-brain fa-2x"></i>
+                                    </div>
+                                    <h5 class="mb-3">Solution integration and maintenance</h5>
+                                    <p>We provide the best in class hardware for all your IT needs.</p>
+                                    <a class="btn px-3 mt-auto mx-auto" href="#">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Service End -->
+
+
 
 
     <!-- Back to Top -->
@@ -262,7 +319,193 @@ h2 {
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
     <script>
-       
+        let menuBtn = document.querySelector("#menuBtn");
+let curs = document.querySelector(".cursor");
+let menuItems = document.querySelectorAll(".menu-item");
+let mainText = document.querySelector(".mainText");
+
+document.addEventListener("mousemove", (e) => {
+  let x = e.pageX;
+  let y = e.pageY;
+  curs.style.left = x - 15 + "px";
+  curs.style.top = y - 15 + "px";
+});
+
+// show hide menu animation
+let flag = true;
+menuBtn.addEventListener("click", () => {
+  flag = !flag;
+
+  if (!flag) {
+    gsap.to(".straight-line", {
+      width: 700,
+      duration: 0.3
+    });
+    gsap.to(".menu", {
+      display: "block",
+      duration: 0.3
+    });
+  } else {
+    gsap.to(".straight-line", {
+      width: 0,
+      duration: 0.2
+    });
+    gsap.to(".menu", {
+      display: "none",
+      duration: 0.2
+    });
+  }
+});
+
+// menu item click animation and changing maim title
+
+menuItems.forEach((item, index) => {
+  item.addEventListener("click", () => {
+    curs.classList.add("explosion");
+    setTimeout(function () {
+      curs.classList.remove("explosion");
+    }, 900);
+  });
+});
+
+// Taken from https://codepen.io/enesser/pen/jdenE
+
+function main() {
+  let scene = new THREE.Scene();
+  let camera = new THREE.PerspectiveCamera(
+    45,
+    window.innerWidth / window.innerHeight,
+    0.1,
+    1000
+  );
+  let webGLRenderer = new THREE.WebGLRenderer();
+  webGLRenderer.setClearColor(new THREE.Color(0x000000, 1.0));
+  webGLRenderer.setSize(window.innerWidth, window.innerHeight);
+  webGLRenderer.shadowMapEnabled = true;
+
+  camera.position.x = -30;
+  camera.position.y = 40;
+  camera.position.z = 50;
+  camera.lookAt(new THREE.Vector3(10, 0, 0));
+
+  document.querySelector("#WebGL-output").append(webGLRenderer.domElement);
+
+  let step = 0;
+
+  let knot;
+
+  let controls = new (function () {
+    this.radius = 40;
+    this.tube = 17;
+    this.radialSegments = 186;
+    this.tubularSegments = 4;
+    this.p = 9;
+    this.q = 1;
+    this.heightScale = 4;
+    this.asParticles = true;
+    this.rotate = true;
+
+    this.redraw = function () {
+      if (knot) scene.remove(knot);
+
+      let geom = new THREE.TorusKnotGeometry(
+        controls.radius,
+        controls.tube,
+        Math.round(controls.radialSegments),
+        Math.round(controls.tubularSegments),
+        Math.round(controls.p),
+        Math.round(controls.q),
+        controls.heightScale
+      );
+
+      if (controls.asParticles) {
+        knot = createParticleSystem(geom);
+      } else {
+        knot = createMesh(geom);
+      }
+
+      scene.add(knot);
+    };
+  })();
+
+  let gui = new dat.GUI();
+  gui.add(controls, "radius", 0, 40).onChange(controls.redraw);
+  gui.add(controls, "tube", 0, 40).onChange(controls.redraw);
+  gui.add(controls, "radialSegments", 0, 400).step(1).onChange(controls.redraw);
+  gui.add(controls, "tubularSegments", 1, 20).step(1).onChange(controls.redraw);
+  gui.add(controls, "p", 1, 10).step(1).onChange(controls.redraw);
+  gui.add(controls, "q", 1, 15).step(1).onChange(controls.redraw);
+  gui.add(controls, "heightScale", 0, 5).onChange(controls.redraw);
+  gui.add(controls, "asParticles").onChange(controls.redraw);
+  gui.add(controls, "rotate").onChange(controls.redraw);
+
+  gui.close();
+
+  controls.redraw();
+
+  render();
+
+  function generateSprite() {
+    let canvas = document.createElement("canvas");
+    canvas.width = 16;
+    canvas.height = 16;
+
+    let context = canvas.getContext("2d");
+    let gradient = context.createRadialGradient(
+      canvas.width / 2,
+      canvas.height / 2,
+      0,
+      canvas.width / 2,
+      canvas.height / 2,
+      canvas.width / 2
+    );
+    gradient.addColorStop(0, "rgba(255,255,255,1)");
+    gradient.addColorStop(0.2, "rgba(0,255,255,1)");
+    gradient.addColorStop(0.4, "rgba(0,0,64,1)");
+    gradient.addColorStop(1, "rgba(0,0,0,1)");
+
+    context.fillStyle = gradient;
+    context.fillRect(0, 0, canvas.width, canvas.height);
+
+    let texture = new THREE.Texture(canvas);
+    texture.needsUpdate = true;
+    return texture;
+  }
+
+  function createParticleSystem(geom) {
+    let material = new THREE.ParticleBasicMaterial({
+      color: 0xffffff,
+      size: 2,
+      transparent: true,
+      blending: THREE.AdditiveBlending,
+      map: generateSprite()
+    });
+
+    let system = new THREE.ParticleSystem(geom, material);
+    system.sortParticles = true;
+    return system;
+  }
+
+  function createMesh(geom) {
+    let meshMaterial = new THREE.MeshNormalMaterial({});
+    meshMaterial.side = THREE.DoubleSide;
+
+    let mesh = THREE.SceneUtils.createMultiMaterialObject(geom, [meshMaterial]);
+
+    return mesh;
+  }
+
+  function render() {
+    if (controls.rotate) {
+      knot.rotation.y = step += 0.00058;
+    }
+
+    requestAnimationFrame(render);
+    webGLRenderer.render(scene, camera);
+  }
+}
+main();
+
     </script>
 
 </body>

@@ -16257,7 +16257,7 @@ h3 + .isotope-filters {
 }
 
 [class*='isotope-filters-list'] a.active {
-	color: #ffffff;
+	color: white;
 	background: #054163;
 }
 
