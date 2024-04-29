@@ -28,7 +28,14 @@
   top: 0;
   width: 100vw;
 }
+/* buttons */
 
+.btn1,.btn2{
+  color: #ffffff !important;
+}
+.btn0{
+  color:#054163 !important
+}
 #layers .layer {
   background-size: auto 100%;
   background-position: 50% 0;
@@ -662,6 +669,8 @@ header {
     transform: translateX(-50%);
   }
 }
+
+/* Our Products */
 
 
 
@@ -1455,6 +1464,8 @@ h6,
     object-fit: cover;
     z-index: -1;
     margin-top: -75px;
+    position: fixed;
+
    
     /* transform: rotateY(180deg);
     -webkit-transform:rotateY(180deg);
