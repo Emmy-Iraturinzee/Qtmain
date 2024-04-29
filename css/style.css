@@ -1458,13 +1458,15 @@ h6,
 /* video */
 #bg-video {
     min-width: 100%;
-    min-height: 99.9vh;
+    min-height: 59.9vh;
     max-width: 100%;
     max-height: 100vh;
     object-fit: cover;
     z-index: -1;
-    margin-top: -75px;
-    position: fixed;
+    top: 0;
+    left: 0;
+   
+   
 
    
     /* transform: rotateY(180deg);
@@ -1535,7 +1537,7 @@ h6,
         min-width: 100%;
         min-height: 99.9vh;
         max-width: 100%;
-        max-height: 100vh;
+        height: 500px !important;
         object-fit: cover;
         z-index: -1;
         margin-top: -75px;
