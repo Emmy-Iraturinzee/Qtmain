@@ -1307,6 +1307,17 @@ h6,
 .testimonial-carousel {
     position: relative;
 }
+iframe{
+  box-shadow: rgb(0,0,0) 5px 10px 50px ,rgb(0,0,0) -5px 0px 250px,rgb(0,0,0) -5px 0px 250px,rgb(0,0,0) -5px 0px 250px;
+  margin-right: 100px;
+}
+.text-light{
+  color: #86acc3;
+}
+#testimonials{
+/* background-image: url('../img/vide-backgrd.jpg');
+object-fit: cover; */
+}
 
 .testimonial-carousel .owl-nav {
     position: absolute;
@@ -1375,7 +1386,7 @@ h6,
 
     border-color: var(--primary);
 }
-
+/* radar */
 
 /*** Footer ***/
 .footer {
