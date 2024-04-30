@@ -1308,7 +1308,7 @@ h6,
     position: relative;
 }
 iframe{
-  box-shadow: rgb(0,0,0) 5px 10px 50px ,rgb(0,0,0) -5px 0px 250px,rgb(0,0,0) -5px 0px 250px,rgb(0,0,0) -5px 0px 250px;
+  box-shadow: rgb(0,0,0) 5px 10px 50px ,rgb(0,0,0) -5px 0px 250px;
   margin-right: 100px;
 }
 .text-light{
