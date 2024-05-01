@@ -755,6 +755,20 @@ links.forEach(link => {
 const slider = new Slider();
 
 
-// hero page
+// scroll effects
+
+
+ScrollReveal({
+    reset: true,
+    distance: '60px',
+    duration: 2500,
+    delay: 100
+});
+ScrollReveal().reveal('li, a', { delay: 200, interval: 50, origin: 'bottom' });
+ScrollReveal().reveal('h1', { delay: 200, origin: 'left' });
+ScrollReveal().reveal('p', { delay: 200, origin: 'left' });
+ScrollReveal().reveal('.card-container', { delay: 200, interval: 1000, origin: 'top' });
+ScrollReveal().reveal('img', { delay: 750, interval: 200 })
+ScrollReveal().reveal('.hero-text-content', { delay: 2200, interval: 600, origin: 'right' })
 
 
