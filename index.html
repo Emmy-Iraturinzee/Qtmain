@@ -82,30 +82,35 @@
     <!-- Navbar Start -->
     <div class="container-fluid sticky-top">
       <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-dark p-0 ">
-            <a href="index.html" class="navbar-brand">
-                <h1 class="text-white"><img src="img/logo.png" class="logo"></h1>
-            </a>
-            <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
-                data-bs-target="#navbarCollapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <div class="navbar-nav ms-auto mb-1 navMenu">
-                    
-                    <a href="index.html" class="nav-item nav-link active ">Home</a>
-                    <a href="about.html" class="nav-item nav-link ">About</a>
-                    <a href="solutions.html" class="nav-item nav-link " >Our Solutions</a>
-                
-                    <a href="career.html" class="nav-item nav-link ">Careers</a>
-                    <a href="contact.html" class="nav-item nav-link">Contact Us</a>
-                
-                </div>
-              
-
-                
-            </div>
-        </nav>
+        <nav class="navbar navbar-expand-lg navbar-dark p-0">
+          <a href="index.html" class="navbar-brand">
+            <h1 class="text-white"><img src="img/logo.png" class="logo"></h1>
+          </a>
+          <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
+              data-bs-target="#navbarCollapse">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+              <div class="navbar-nav ms-auto">
+                <div class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Home</a>
+                  <div class="dropdown-menu bg-light mt-2">
+                      <a href="#services" class="dropdown-item">Services</a>
+                      <a href="#experience" class="dropdown-item">Our Experience</a>
+                      <a href="#products" class="dropdown-item">Our Products</a>
+                      <a href="#testimonials" class="dropdown-item">Testimonials</a>
+                     
+                  </div>
+              </div>
+                  <a href="about.html" class="nav-item nav-link">About</a>
+                  <a href="service.html" class="nav-item nav-link">Our Solutions</a>
+                  <a href="project.html" class="nav-item nav-link">Careers</a>
+               
+                  <a href="contact.html" class="nav-item nav-link">Contact</a>
+              </div>
+         
+          </div>
+      </nav>
       
     </div>
       
@@ -352,7 +357,7 @@
     <!-- Hero End -->
     
 
-<section class="about-us-bg">
+<section class="about-us-bg" id="experience">
     <div class=" container-fluid py-5">
         <div class=" container">
             <section class="min-h-screen  text-center py-20 px-8 xl:px-0 flex flex-col justify-center">
@@ -528,7 +533,7 @@
 
 <!-- Our Products -->
 <div class="container-fluid py-5 bg-light"    >
-    <section class="section section-sm  text-md-left"  >
+    <section class="section section-sm  text-md-left" id="products"  >
         <div class="container">
           <div class="row row-50 align-items-center justify-content-center justify-content-xl-between">
             <div class="col-lg-6 col-xl-5 wow fadeInLeft">
@@ -641,7 +646,7 @@
 
  <!-- projects -->
  
- <section id="testimonials" class=" align-items-center justify-content-center justify-content-xl-between">
+ <section id="testimonials" class=" align-items-center justify-content-center justify-content-xl-between" id="testimonials">
   <div class="container-fluid py-5 " >
     <div class="container">
 
@@ -800,6 +805,7 @@
    
 </div>
 
+
     <!-- Footer Start -->
     <div class="container-fluid text-white-50 footer pt-5" id="footer">
         <div class="container py-5">
@@ -814,7 +820,8 @@
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
                     <h5 class="text-white mb-4">Get In Touch</h5>
                     <p><i class="fa fa-map-marker-alt me-3"></i>Telecom House 8 KG 7 Ave</p>
-                    <p><i class="fa fa-phone-alt me-3"></i>+250 788 309 939</p>
+                <p><i class="fa fa-phone-alt me-3"></i>+250 788 309 939</p>
+                   
                     <p><i class="fa fa-envelope me-3"></i>info@qtsoftwareltd.com</p>
                     <div class="d-flex pt-2">
                         <a class="btn btn-outline-light btn-social" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
@@ -828,11 +835,11 @@
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
                     <h5 class="text-white mb-4">Popular Link</h5>
-                    <a class="btn btn-link" href="#">About Us</a>
-                    <a class="btn btn-link" href="#">Contact Us</a>
+                    <a class="btn btn-link" href="about.html">About Us</a>
+                    <a class="btn btn-link" href="contact.html">Contact Us</a>
                     <a class="btn btn-link" href="#">Privacy Policy</a>
                   
-                    <a class="btn btn-link" href="#">Career</a>
+                    <a class="btn btn-link" href="career.html">Career</a>
                 </div>
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
                     <h5 class="text-white mb-4">Our Services</h5>
