@@ -377,7 +377,7 @@ h2 {
   border-radius: 50%;
   position: absolute;
   box-shadow: 2px -3px 41px -1px rgba(250, 250, 250, 0.64);
-  pointer-events: none;
+ 
 }
 
 .side-menu {
@@ -700,6 +700,9 @@ header {
     color: #64748b;
   }
 }
+a{
+  cursor: pointer !important;
+}
 
 /* .fade {
   pointer-events: none;
@@ -1004,13 +1007,20 @@ h6,
   
 }
 .links{
-    background-color: #054163;
-  padding-right:40px ;
-  padding-left: 40px;
+  background: linear-gradient(180deg, rgba(2, 20, 22, 0.449) 0%, #054163 100%);
+  padding-right:30px ;
+  padding-left: 30px;
    border-radius: 100px;
    margin-left: 40px;
   
    z-index: 1000;
+  transition: ease 8s;
+  box-shadow: rgba(21, 147, 197, 0.251) 1px 1px 1px;
+}
+.links:hover{
+
+  background-color: #054163 !important;
+  
 }
 
 .navbar .navbar-nav .nav-link {
@@ -1759,7 +1769,8 @@ object-fit: cover; */
 /* partners */
 
 .footer .btn.btn-social:hover {
-    color: var(--primary);
+    color: var(--primary) !important;
+    color: #0471b0;
 }
 
 .footer .btn.btn-link {
@@ -1771,6 +1782,7 @@ object-fit: cover; */
     font-weight: normal;
     transition: .3s;
 }
+;
 
 .footer .btn.btn-link:hover {
     color:#FFFFFF !important;
@@ -2366,7 +2378,7 @@ object-fit: cover; */
         width: 1.5rem;
         height: 1.5rem;
         z-index: 2;
-        pointer-events: none;
+        /* pointer-events: none; */
       }
       .cursor div {
         position: absolute;
@@ -3036,7 +3048,7 @@ header {
 
 /* cursor */
 .mscursor-cursor {
-  pointer-events: none;
+
   position: fixed;
   display: block;
   border-radius: 0;
