@@ -34,6 +34,8 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- navbar script -->
+<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
@@ -54,29 +56,49 @@
     <!-- Navbar Start -->
     <div class="container-fluid sticky-top">
       <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-dark p-0 ">
-            <a href="index.html" class="navbar-brand">
-                <h1 class="text-white"><img src="img/logo.png" class="logo"></h1>
-            </a>
-            <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
-                data-bs-target="#navbarCollapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <div class="navbar-nav ms-auto mb-1 navMenu">
-                    
-                    <a href="index.html" class="nav-item nav-link ">Home</a>
-                    <a href="about.html" class="nav-item nav-link ">About</a>
-                    <a href="solutions.html" class="nav-item nav-link" >Our Solutions</a>
-                
-                    <a href="career.html" class="nav-item nav-link active">Careers</a>
-                    <a href="contact.html" class="nav-item nav-link">Contact Us</a>
-                
-                </div>
-              
-
-                
+        <nav style="margin-top: -170px;">
+          <div class="navbar">
+            <i class='bx bx-menu'></i>
+            <div class="logo"><a href="#"><img src="img/logo.png" class="logo" style="width: 100px; margin-top: 50px;"></a></div>
+            <div class="nav-links">
+              <div class="sidebar-logo">
+                <!-- <span class="logo-name"><img src="img/logo.png" class="logo"></span> -->
+                <i class='bx bx-x' ></i>
+              </div>
+              <ul class="links">
+                <li>
+                  <a href="index.html">HOME</a>
+                  <i class='bx bxs-chevron-down js-arrow arrow '></i>
+                  <ul class="js-sub-menu sub-menu">
+                    <li><a href="index.html#services">Our Services</a></li>
+                    <li><a href="index.html#experience">Our Experience</a></li>
+                    <li><a href="index.html#products">Our Products</a></li>
+                    <li><a href="index.html#testimonials">Testimonials</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="solutions.html">SOLUTIONS</a>
+                  <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+                  <ul class="htmlCss-sub-menu sub-menu">
+                    <li><a href="solutions.html#Ems">EMS</a></li>
+                    <li><a href="solutions.html#QT">QT Connect</a></li>
+                    <li><a href="solutions.html#VMS">VMS</a></li>
+                 
+                  </ul>
+                </li>
+               
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="career.html">CAREERS</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+              </ul>
             </div>
+            <div class="search-box">
+              <i class='bx bx-search'></i>
+              <div class="input-box">
+                <input type="text" placeholder="Search...">
+              </div>
+            </div>
+          </div>
         </nav>
       
     </div>
@@ -88,10 +110,10 @@
 
 
 
-<section>
-    <div class="container-fluid feature pt-5">
+<section style="margin-top: 100px;">
+    <div class="container-fluid feature pt-5" >
         <div class="container py-5 align-items-center">
-            <h1 class="text-white bold text-center mb-5 ">Join the QT team</h1>
+            <h1 class="text-white bold text-center mb-5 " >Join the QT team</h1>
             <!-- <p class="text-white text-justify text-center">
               We are eager to welcome individuals who are passionate, driven,<br>
                and bring unique perspectives to the table to contribute <br>
@@ -332,6 +354,18 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script>
+      $(function () { 
+          $(window).scroll(function () {
+              if ($(this).scrollTop() > 680) { 
+                  $('.logo').attr('src','img/qt_global_logo-removebg-preview (1).png');
+              }
+              if ($(this).scrollTop() < 680) { 
+                  $('.logo').attr('src','img/logo.png');
+              }
+          })
+      });
+  </script>
 </body>
 
 

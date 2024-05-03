@@ -37,6 +37,8 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <!-- navbar script -->
+<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
 
 
     <link rel="stylesheet" href="site/css/style.css">
@@ -73,30 +75,50 @@
     <!-- Navbar Start -->
     <div class="container-fluid sticky-top">
         <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-dark p-0 ">
-                <a href="index.html" class="navbar-brand">
-                    <h1 class="text-white"><img src="img/logo.png" class="logo"></h1>
-                </a>
-                <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
-                    data-bs-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav ms-auto mb-1 navMenu">
-                        
-                        <a href="index.html" class="nav-item nav-link ">Home</a>
-                        <a href="about.html" class="nav-item nav-link ">About</a>
-                        <a href="solutions.html" class="nav-item nav-link " >Our Solutions</a>
-                    
-                        <a href="career.html" class="nav-item nav-link active">Careers</a>
-                        <a href="contact.html" class="nav-item nav-link">Contact Us</a>
-                    
+            <nav style="margin-top: 8px;">
+                <div class="navbar">
+                  <i class='bx bx-menu'></i>
+                  <div class="logo"><a href="#"><img src="img/logo.png" class="logo" style="width: 100px; margin-top: 50px;"></a></div>
+                  <div class="nav-links">
+                    <div class="sidebar-logo">
+                      <!-- <span class="logo-name"><img src="img/logo.png" class="logo"></span> -->
+                      <i class='bx bx-x' ></i>
                     </div>
-                  
-
-                    
+                    <ul class="links">
+                      <li>
+                        <a href="index.html">HOME</a>
+                        <i class='bx bxs-chevron-down js-arrow arrow '></i>
+                        <ul class="js-sub-menu sub-menu">
+                            <li><a href="index.html#services">Our Services</a></li>
+                            <li><a href="index.html#experience">Our Experience</a></li>
+                            <li><a href="index.html#products">Our Products</a></li>
+                            <li><a href="index.html#testimonials">Testimonials</a></li>
+                          </ul>
+                      </li>
+                      <li>
+                        <a href="solutions.html">SOLUTIONS</a>
+                        <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+                        <ul class="htmlCss-sub-menu sub-menu">
+                            <li><a href="solutions.html#Ems">EMS</a></li>
+                            <li><a href="solutions.html#QT">QT Connect</a></li>
+                            <li><a href="solutions.html#VMS">VMS</a></li>
+                         
+                          </ul>
+                      </li>
+                     
+                      <li><a href="about.html">ABOUT US</a></li>
+                      <li><a href="career.html">CAREERS</a></li>
+                      <li><a href="contact.html">CONTACT US</a></li>
+                    </ul>
+                  </div>
+                  <div class="search-box">
+                    <i class='bx bx-search'></i>
+                    <div class="input-box">
+                      <input type="text" placeholder="Search...">
+                    </div>
+                  </div>
                 </div>
-            </nav>
+              </nav>
           
         </div>
     </div>
@@ -109,7 +131,7 @@
 <section>
         <!-- Hero Start -->
         <div class="container-fluid pt-5  hero-header" style="margin-bottom: 130px;">
-            <div class="container pt-5">
+            <div class="container pt-5" style="height: 500px; margin-top: 100px;">
                 <div class="row g-5 pt-5">
                     <div class="col-lg-6 align-self-center text-center text-lg-start mb-lg-5">
                         <h1 class="display-4 text-white mb-4 animated slideInRight">Careers</h1>
