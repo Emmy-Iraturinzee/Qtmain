@@ -1007,7 +1007,7 @@ h6,
   
 }
 .links{
-  background: linear-gradient(180deg, rgba(2, 20, 22, 0.449) 0%, #054163 100%);
+  /* background: linear-gradient(180deg, rgba(2, 20, 22, 0.449) 0%, #054163 100%); */
   padding-right:30px ;
   padding-left: 30px;
    border-radius: 100px;
@@ -1015,11 +1015,11 @@ h6,
   
    z-index: 1000;
   transition: ease 8s;
-  box-shadow: rgba(21, 147, 197, 0.251) 1px 1px 1px;
+
 }
 .links:hover{
 
-  background-color: #054163 !important;
+
   
 }
 
@@ -1103,7 +1103,7 @@ nav .navbar .links li .arrow{
   text-align: center;
   display: inline-block;
   color: #fff;
-  transition: all 0.3s ease;
+ 
 }
 nav .navbar .links li .sub-menu{
   position: absolute;
@@ -1236,6 +1236,10 @@ nav .navbar .links li:hover .js-sub-menu{
   .links{
   
 margin-left: -40px;
+border-radius: 0;
+width: 200px;
+
+background-color: #033b49;
 }
   .navbar .bx-menu{
     display: block;
@@ -1254,7 +1258,8 @@ margin-left: -40px;
     display: block;
     max-width: 270px;
     width: 100%;
-    background:  #054163;
+    height: 40%;
+    background-color: #054163;
     line-height: 40px;
     padding: 20px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
