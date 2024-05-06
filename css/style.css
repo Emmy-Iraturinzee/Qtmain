@@ -1269,6 +1269,7 @@ border-radius: 0;
 width: 200px;
 
 background-color: #054163;
+position:sticky;
 }
   .navbar .bx-menu{
     display: block;
