@@ -792,14 +792,14 @@ body .vertical-centered-box .content {
  
   width: 100%;  
 }
-h1 {
+#text {
   overflow: hidden;
   margin: 0 auto;
   display: inline-block;
       font-weight: normal;
 
 }
-h1:after{
+#text:after{
  content: '';
   display: inline-block;
   background-color: white;
