@@ -177,8 +177,10 @@
 
 
             </div>
-           
+           <div class="wow fadeIn"data-wow-delay="10s" >
             <img class="planetImg" src="https://assets.codepen.io/1651485/planet.png" />
+           </div>
+         
 
             <div class="container">
                 <div class="row">
@@ -188,9 +190,9 @@
                                    
             <div class="mainText mb-3">
               <div class="mainTitle">
-                <div class="typewriter wow bounceInUp  " style="margin-top: 200px;">
-                    <h1 id="text" cla>We Develop, Secure and Deploy cutting-edge digital solutions</h1>
-        
+               
+                <div class="typewriter wow fadeIn " data-wow-delay="0.7s"  style="margin-top: 180px;">
+                  <h1 id="text">We Develop, Secure and Deploy cutting-edge digital solutions</h1>
                 </div>
               </div>
            
@@ -204,8 +206,8 @@
         
                             
                         </div>
-                      
-                        <a href="#about" >
+                        <div class=" wow fadeIn" data-wow-delay="11s">
+                          <a href="#about"  >
                             <button class="cta">
                                 <span class="hover-underline-animation"> Read More</span>
                                 <svg
@@ -224,6 +226,9 @@
                                 </svg>
                               </button>
                            </a>  
+                        </div>
+                      
+                  
                        
                           
                          
@@ -238,11 +243,11 @@
                   </div>
                  
                   <div class="col align-self-end">
-                    <div class=" animated slideInLeft ml-3">
+                    <div class=" animated wow fadeIn ml-3 " data-wow-delay="11s" >
         
                     
                         <a href="#services" class="scroll-wrapper-link" >
-                            <div id="scroll-wrapper">
+                            <div id="scroll-wrapper" >
                                 <div id="scroll-wrapper-inner">
                                 <div id="scroll-title">
                                   Scroll
@@ -1010,6 +1015,26 @@ jsArrow.onclick = function() {
                       
 
 
+                  </script>
+                  <script>
+                    		var i = 0;
+// var A = 0;
+		var tag = document.getElementById("text");
+		var html = document.getElementById("text").innerHTML;
+		var attr = tag.setAttribute("data", html);
+		var txt = tag.getAttribute("data");
+		var speed = 170;
+
+		function typeWriter() {
+		  if (i <= txt.length) {
+		    document.getElementById("text").innerHTML = txt.slice(0 , i + 1);
+		    i++;
+		    setTimeout(typeWriter, speed);
+		  }
+		    //console.log(document.getElementById("text").innerHTML);
+		}
+
+typeWriter();
                   </script>
                  
 
