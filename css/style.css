@@ -249,6 +249,19 @@ ul {
   width: 100%
 }
 
+/* our products */
+.app2{
+	width: 100% !important;
+}
+.qtapp1{
+	width: 100% !important;
+}
+#VMS{
+  margin-top: 100px !important;
+}
+#QT{
+  margin-top: 100px !important;
+}
 /* our services */
 
 #about-us{
@@ -762,7 +775,7 @@ body {
  
 }
 body .vertical-centered-box {
-  position: fixed;
+  position: absolute;
   width: 100%;
   height: 100%;
   text-align: center;
@@ -892,11 +905,36 @@ h6,
     font-weight: 500 !important;
 }
 .about-p{
-    color:#a2a1a1;
+    color:#424242;
+    font-weight:500;
+    letter-spacing: 0.9px;
 }
-.about-h1{
+.borderdown{
     color:#0471b0;
+    border-bottom: 5px solid #054163;
+    width: 10%;
+    margin-bottom: 40px;
 }
+.borderdown2{
+  color:#0471b0;
+  border-bottom: 5px solid #054163;
+  width: 30%;
+  margin-left: 25px;
+}
+.borderdown3{
+  color:#0471b0;
+  border-bottom: 5px solid #054163;
+  width: 30%;
+  margin-left: 110px !important;
+}
+.heading-title{
+
+
+  margin-bottom: 40px;
+  justify-items: center;
+  width: 20%;
+}
+
 .about-h1-header{
     color:#054163;
 }
@@ -1434,17 +1472,10 @@ nav .navbar .links li .sub-menu li{
 }
 
 
-/*** Hero Header ***/
-.hero-header {
-    margin-top: -75px;
-
-    background-size: cover;
+.borderdown3{
+  margin-left: 140px;
+  
 }
-
-.hero-header .breadcrumb-item+.breadcrumb-item::before {
-    color: var(--light);
-}
-
 
 /*** Section Title ***/
 .section-title::before {
