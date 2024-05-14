@@ -2063,7 +2063,7 @@ object-fit: cover; */
 
 
 #marquee__container {
-    background-color: #ffffff;
+  
     min-height: 20vh;
     display: flex;
     justify-content: center;
@@ -2084,7 +2084,7 @@ object-fit: cover; */
     }
     
     .marquee {
-        background-color: #ffffff;
+     
         color: lightgrey;
         width: 80vw;
         overflow: hidden;
@@ -2111,7 +2111,7 @@ object-fit: cover; */
     
     
     .marquee__img {
-        width: 13vw;
+        width: 100vw;
         padding: 1rem;
     }
     
