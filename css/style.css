@@ -1088,7 +1088,7 @@ h6,
 /*** Navbar ***/
 .sticky-top {
     top: -150px;
-    transition: .5s;
+ 
 }
 
 .navbar {
@@ -1138,19 +1138,19 @@ nav{
   width: 100%;
   height: 100%;
   height: 70px;
- 
+
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
   z-index: 99;
 }
 nav .navbar{
-  height: 100%;
+
   max-width: 1250px;
-  width: 100%;
-  display: flex;
+
+
   align-items: center;
   justify-content: space-between;
   margin: auto;
-  /* background: red; */
+
   padding: 0 50px;
 }
 .navbar .logo a{
@@ -1162,6 +1162,7 @@ nav .navbar{
 nav .navbar .nav-links{
   line-height: 70px;
   height: 100%;
+  
 }
 nav .navbar .links{
   display: flex;
@@ -1375,7 +1376,7 @@ position:sticky;
     line-height: 40px;
     padding: 20px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-    transition: all 0.5s ease;
+   
     z-index: 1000;
   }
   .navbar .nav-links .sidebar-logo{
@@ -1459,6 +1460,7 @@ nav .navbar .links li .sub-menu li{
 } 
 }
 /* end of navbar v2 */
+
 
 .navbar .dropdown-toggle::after {
     border: none;
