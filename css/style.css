@@ -1312,7 +1312,9 @@ nav .navbar .links li:hover .js-sub-menu{
   margin-top: 100px;
    
   }
-
+.hero-section{
+  height: 900px;
+}
   .logo{
  margin-top: 5px !important;
  margin-left: 60px !important;
