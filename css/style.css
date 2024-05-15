@@ -1318,6 +1318,7 @@ nav .navbar .links li:hover .js-sub-menu{
   .logo{
  margin-top: 5px !important;
  margin-left: 60px !important;
+
   }
   .tabs-6-1{
     margin-top: -10px;
@@ -1326,6 +1327,9 @@ nav .navbar .links li:hover .js-sub-menu{
     font-size: 10px;
     margin-left: -50px;
     
+  }
+  nav{
+    position: fixed;
   }
   nav .navbar .links li{
     padding: 0 10px;
