@@ -524,6 +524,10 @@ h2 {
   top: 5%;
   right: 13%;
   animation: float 12s ease-in-out infinite;
+  box-shadow: none;
+  z-index: -1;
+
+  
 }
 
 @keyframes scroll {
@@ -639,7 +643,7 @@ h2 {
   
  
 }
-
+/*  */
 header { 
   display: flex;
   flex-direction: column;
@@ -1101,7 +1105,7 @@ h6,
    margin-left: 40px;
   
    z-index: 1000;
-  transition: ease 8s;
+
 
 }
 .links:hover{
@@ -1303,6 +1307,9 @@ nav .navbar .links li:hover .js-sub-menu{
     max-width: 100%;
     padding: 0 25px;
     margin-top: 50px;
+  }
+  .tabs-6-1{
+    margin-top: -140px;
   }
   nav .navbar .logo a{
     font-size: 10px;
@@ -2117,8 +2124,8 @@ object-fit: cover; */
     
     
     .marquee__img {
-        width: 20vw;
-        padding: 1rem;
+        width: 12vw;
+        padding: 0.1rem;
     }
     
     
