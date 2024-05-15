@@ -1302,11 +1302,20 @@ nav .navbar .links li:hover .js-sub-menu{
 .navbar .bx-menu{
   display: none;
 }
+.logo2{
+  display: none;
+}
 @media (max-width:920px) {
   nav .navbar{
     max-width: 100%;
     padding: 0 25px;
-    margin-top: 50px;
+  margin-top: 100px;
+   
+  }
+
+  .logo{
+ margin-top: 5px !important;
+ margin-left: 60px !important;
   }
   .tabs-6-1{
     margin-top: -10px;
@@ -1314,6 +1323,7 @@ nav .navbar .links li:hover .js-sub-menu{
   nav .navbar .logo a{
     font-size: 10px;
     margin-left: -50px;
+    
   }
   nav .navbar .links li{
     padding: 0 10px;
