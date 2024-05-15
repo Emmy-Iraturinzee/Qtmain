@@ -1323,6 +1323,9 @@ nav .navbar .links li:hover .js-sub-menu{
   .tabs-6-1{
     margin-top: -10px;
   }
+  .planetImg{
+    width: 50%;
+  }
   nav .navbar .logo a{
     font-size: 10px;
     margin-left: -50px;
