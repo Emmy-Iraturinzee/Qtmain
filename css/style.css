@@ -1318,8 +1318,11 @@ nav .navbar .links li:hover .js-sub-menu{
 }
   .logo{
  margin-top: 5px !important;
- margin-left: 60px !important;
+ margin-left: 40px !important;
 
+  }
+  .app{
+    display: none;
   }
   .tabs-6-1{
     margin-top: -10px;
