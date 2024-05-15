@@ -1310,7 +1310,7 @@ nav .navbar .links li:hover .js-sub-menu{
   nav .navbar{
     max-width: 100%;
     padding: 0 25px;
-  margin-top: 100px;
+  margin-top: 70px;
    
   }
 .hero-section{
@@ -1321,9 +1321,7 @@ nav .navbar .links li:hover .js-sub-menu{
  margin-left: 40px !important;
 
   }
-  .app{
-    display: none;
-  }
+
   .tabs-6-1{
     margin-top: -10px;
   }
