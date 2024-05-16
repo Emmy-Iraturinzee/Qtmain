@@ -1132,7 +1132,7 @@ h6,
 
 /* navbar v2 */
 nav{
-  position: fixed;
+  position: relative;
   margin-top: -70px;
   left: 0;
   width: 100%;
@@ -1350,7 +1350,7 @@ nav .navbar .links li:hover .js-sub-menu{
   
 margin-left: -40px;
 border-radius: 0;
-width: 200px;
+
 
 background-color: #054163;
 position:sticky;

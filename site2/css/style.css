@@ -12996,6 +12996,7 @@ img + .custom-title {
 .thumbnail-classic-title {
 	font-weight: 700;
 	letter-spacing: .025em;
+	border-radius: 100px;
 }
 
 .thumbnail-classic-time {
