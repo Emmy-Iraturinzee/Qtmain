@@ -2520,6 +2520,7 @@ object-fit: cover; */
     font-family: 'Manrope', sans-serif;
     padding: 2rem 0;
     border-radius: 18px;
+   
     }
     
     
@@ -2536,6 +2537,7 @@ object-fit: cover; */
         color: lightgrey;
         width: 100vw;
         overflow: hidden;
+        margin-top: -80px;
         
     }
     
@@ -2561,8 +2563,15 @@ object-fit: cover; */
     .marquee__img {
         width: 12vw;
         padding: 0.1rem;
+      
     }
-    
+    .marquee__img1 {
+      width: 10vw;
+      padding: 0.1rem;
+      filter: brightness(0) invert(1);
+     
+  }
+  
     
     
     @keyframes scrolling{
