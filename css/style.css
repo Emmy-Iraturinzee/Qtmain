@@ -16,6 +16,9 @@
   
 
 }
+.service-p{
+  font-size: 16px !important;
+}
 
 
 
@@ -869,6 +872,7 @@ body .vertical-centered-box .content {
 .heading , h2{
   margin-top: 0px;
   color: white;
+  font-size: 22px;
 }
 .separator {
   position: relative;
