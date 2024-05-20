@@ -863,6 +863,111 @@ body .vertical-centered-box .content {
     opacity: 1;
   }
 }
+/* product2 */
+
+/* product-card */
+.heading , h2{
+  margin-top: 0px;
+  color: white;
+}
+.separator {
+  position: relative;
+  display: inline-block;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+.separator:after,
+.separator:before {
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: #353535;
+  top: 50%;
+}
+
+.separator i {
+  color: #353535;
+}
+
+.separator:after {
+  right: 140%;
+}
+
+.separator:before {
+  left: 140%;
+}
+.heading-main-white {
+  color: #fff;
+}
+
+.heading-main-white .separator {
+  color: #fff;
+}
+
+.heading-main-white .separator:before, .heading-main-white .separator:after {
+  background: #054163;
+}
+
+.heading-main-white .separator i {
+  color: #054163;
+}
+
+.feature-section {
+
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 60px 0;
+min-height: 100vh;
+}
+.features-div {
+}
+.feature-back:hover {
+  color: #fff !important;
+  background-color: #ffffff1c;
+  border-radius: 11px;
+}
+.feature-back {
+  color: #fff !important;
+  padding: 18px;
+}
+.features-title {
+  
+  font-size: 30px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #fff;
+}
+.below-line-feature {
+  border-top: 2px solid #fff;
+  display: inline-block;
+  bottom: auto;
+  left: auto;
+  margin: auto auto auto 0;
+  font-size: 16px;
+  color: #fff;
+  padding-left: 50px;
+  padding-top: 4px;
+}
+.features-div i {
+  color: #054163;
+  font-size: 48px !important;
+  float: left;
+  padding-right: 18px;
+  padding-top: 15px;
+}
+.features-heading {
+  font-size: 19.98px;
+  letter-spacing: 0.5px;
+}
+
+.features-div p {
+  font-size: 14px;
+  color: #fff;
+  padding-left: 70px;
+  line-height: 2;
+}
 /* product carousel */
 .gtco-testimonials {
   position: relative;
@@ -905,13 +1010,14 @@ body .vertical-centered-box .content {
   width: 12px;
   margin-bottom: -1px;
 }
-.gtco-testimonials .card {
+.gtco-testimonials .card1 {
 
 
   margin: 0 20px;
   padding: 0 10px;
   border-radius: 20px;
   border: 0;
+
 }
 .gtco-testimonials .card .card-img-top {
   max-width: 100px;
@@ -936,14 +1042,18 @@ body .vertical-centered-box .content {
   padding-bottom: 15px;
 }
 .gtco-testimonials .active {
-  opacity: 0.1;
+  opacity: 0.5;
   transition: all 0.3s;
+
 }
 .gtco-testimonials .center {
   opacity: 1;
+ 
+
 }
 .gtco-testimonials .center h5 {
   font-size: 24px;
+ 
 }
 .gtco-testimonials .center h5 span {
   font-size: 20px;
@@ -1006,8 +1116,8 @@ body .vertical-centered-box .content {
   display: inline-block;
   width: 100px;
   height: 100px;
-  border: 3px solid #005190;
-  color: #1B9CFC;
+  border: 3px solid #075582;
+  color: #096295;
   transform: rotate(45deg);
   margin-bottom: 35px;
 
@@ -1023,7 +1133,7 @@ body .vertical-centered-box .content {
 }
 .service-box:hover .service-icon
 {
-  background: #1B9CFC;
+  background: #056396;
   color: #ddd;
 }
 .service-title
@@ -1053,6 +1163,9 @@ body .vertical-centered-box .content {
     max-width: 100%;
   }
 }
+/* our product-card */
+
+
 /* card2 */
 .card2 {
   width: 300px;
@@ -1922,7 +2035,7 @@ nav .navbar .links li .sub-menu li{
 }
 
 .service-item:hover {
-  background: #e9f8ff;
+  background: #dde0e2;
 }
 
 .service-item .service-icon1 {
@@ -2679,7 +2792,8 @@ object-fit: cover; */
       }
     
     /* animated tex 2 */
-    
+    /* card1 */
+   
       #text {
         max-width: 700px;
         text-align: left;
