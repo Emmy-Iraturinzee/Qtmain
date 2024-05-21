@@ -2186,9 +2186,9 @@ margin-top: -480px;
 .service-item .service-icon1 {
     margin: 0 auto 20px auto;
     width: 90px;
-    height: 90px;
+    height: 500px;
     color: var(--primary);
-    background: var(--light);
+  
     transition: .5s;
 
 }
