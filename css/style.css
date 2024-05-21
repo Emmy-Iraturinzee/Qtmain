@@ -925,12 +925,14 @@ body .vertical-centered-box .content {
   padding: 60px 0;
 min-height: 100vh;
 }
-.features-div {
+.features-div p:hover {
+
 }
 .feature-back:hover {
   color: #fff !important;
-  background-color: #ffffff1c;
+  background-color: #18406778;
   border-radius: 11px;
+
 }
 .feature-back {
   color: #fff !important;
