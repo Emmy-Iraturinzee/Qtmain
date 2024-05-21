@@ -2093,6 +2093,12 @@ margin-top: -480px;
     font-size: 32px !important;
    
   }
+  #approach{
+    margin-top: 100px;
+  }
+  #award{
+    margin-top: 200px;
+  }
 
 }
 @media (max-width: 900px) {
