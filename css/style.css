@@ -926,11 +926,12 @@ body .vertical-centered-box .content {
 min-height: 100vh;
 }
 .features-div p:hover {
-
+  text-shadow: -.25px -.25px 0 white, 
+                .25px .25px white;
 }
 .feature-back:hover {
   color: #fff !important;
-  background-color: #18406778;
+  background-color: #ffffff1c;
   border-radius: 11px;
 
 }
