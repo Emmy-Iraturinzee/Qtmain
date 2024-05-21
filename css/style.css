@@ -2039,6 +2039,7 @@ nav .navbar .links li .sub-menu li{
     background: #FFFFFF;
     transition: .5s;
     border: 1px solid #FFFFFF;
+    height: 400px;
 }
 
 .service-item:hover {
