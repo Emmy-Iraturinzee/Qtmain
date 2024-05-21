@@ -2119,6 +2119,9 @@ margin-top: -480px;
   .service-icon1 i{
     width: 2px !important;
   }
+  .app{
+    display: none;
+  }
  
 }
 
