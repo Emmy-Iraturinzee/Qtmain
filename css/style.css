@@ -2110,6 +2110,9 @@ margin-top: -480px;
    margin-top: -320px;
     
   }
+  .service-icon1 i{
+    width: 2px !important;
+  }
  
 }
 
