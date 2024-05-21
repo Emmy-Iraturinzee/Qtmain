@@ -2078,10 +2078,28 @@ border-color: 2px solid #033b49;
     width: 100px !important;
   }
 }
+/* phone */
+@media (max-width: 480px) {
+  .row-grid {   
+   display: none !important;
+  
+  }
+  #services{
+margin-top: -480px;
+
+  }
+  #text{
+    margin-top: -100px !important;
+  }
+
+}
 @media (max-width: 900px) {
   .row-grid {   
   display: none !important;
   
+   }
+   .heading-main-client{
+    display: none;
    }
 }
  /* Tablet styles */
@@ -2090,9 +2108,7 @@ border-color: 2px solid #033b49;
    margin-top: -320px;
     
   }
-  .card-title{
-   
-  }
+ 
 }
 
 
