@@ -2031,7 +2031,115 @@ nav .navbar .links li .sub-menu li{
     background-size: contain;
 } */
 
+.cards {
+  width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  gap: 0.5rem;
+  border-radius: 10px;
+}
+.img-partner{
+ width: 150px;
+ margin: 10px;
+ transition: transform 3s;
 
+}
+.img-partner:hover{
+  transform: scale(1.5);
+}
+.img-col{
+border-color: 2px solid #033b49;
+}
+.row-no-padding {
+  margin-left: 0;
+  margin-right: 0;
+
+
+}
+[class*="img-col"],  /* Elements whose class attribute begins with "col-" */
+[class^="img-col"] { /* Elements whose class attribute contains the substring "col-" */
+
+  padding-left: 0;
+  padding-right: 0;
+
+ 
+}
+.card-1{
+  background-color: white;
+  align-items: center;
+ border-color: 1px solid;
+}
+@media (max-width: 600px) {
+  .row-grid {   
+   display: none !important;
+  
+  }
+  .marquee__img1{
+    width: 100px !important;
+  }
+}
+@media (max-width: 900px) {
+  .row-grid {   
+  display: none !important;
+  
+   }
+}
+
+
+
+
+.row-grid {
+  width: 1280px;
+  margin-inline: auto;
+  margin-block: 3em;
+  grid-auto-rows: 1fr;
+  background-color: white;
+}
+
+.grid__item {
+  padding: 3em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.row-grid {
+  --gap: 2rem;
+  --line-offset: calc(var(--gap) / 2);
+  --line-thickness: 1px;
+  --line-color: rgb(172, 201, 232);
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  overflow: hidden;
+  gap: var(--gap);
+}
+
+.grid__item {
+  position: relative;
+}
+
+.grid__item::before,
+.grid__item::after {
+  content: "";
+  position: absolute;
+  background-color: var(--line-color);
+  z-index: 1;
+}
+
+.grid__item::after {
+  inline-size: 100vw;
+  block-size: var(--line-thickness);
+  inset-inline-start: 0;
+  inset-block-start: calc(var(--line-offset) * -1);
+}
+
+.grid__item::before {
+  inline-size: var(--line-thickness);
+  block-size: 100vh;
+  inset-block-start: 0;
+  inset-inline-start: calc(var(--line-offset) * -1);
+}
 /*** Service ***/
 .service-item {
     position: relative;
