@@ -2247,8 +2247,12 @@ margin-top: -480px;
  
 }
 
-
-
+ /* High-resolution styles  big screens*/
+/* @media (min-width:4000px), (max-width: 5000px) {
+ #experience{
+  margin-top: -800px !important;
+ }
+} */
 
 
 .row-grid {
@@ -2702,7 +2706,9 @@ object-fit: cover; */
   width: 100%;
   
 }
+.logo-home{
 
+}
 
 @media (max-width: 700px) {
     .video-overlay {
