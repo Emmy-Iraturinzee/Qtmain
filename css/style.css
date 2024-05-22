@@ -2155,7 +2155,8 @@ border-color: 2px solid #033b49;
   
   }
   .marquee__img1{
-    width: 100px !important;
+    width: 190px !important;
+  margin-left:-100px !important;
   }
 }
 /* phone */
@@ -2214,6 +2215,7 @@ margin-top: -480px;
    margin-top: -320px;
     
   }
+
   .service-icon1 i{
     width: 2px !important;
   }
@@ -2830,7 +2832,7 @@ object-fit: cover; */
         list-style: none;
         height: 100%;
         display: flex;
-        animation: scrolling 30s linear infinite;
+        animation: scrolling 60s linear infinite;
     }
     
     
@@ -2847,12 +2849,12 @@ object-fit: cover; */
     
     .marquee__img {
         width: 12vw;
-        padding: 0.1rem;
+        padding: 0.00101rem;
       
     }
     .marquee__img1 {
       width: 10vw;
-      padding: 0.1rem;
+      padding:0;
       filter: brightness(0) invert(1);
      
   }
@@ -4627,6 +4629,21 @@ figure.snip1229.hover p {
   .tabbed-about-us .img-wrapper {
     min-height: 350px;
   }
+  .marquee__content {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    animation: scrolling 70s linear infinite;
+}
+.logo{
+  width: 70px !important;
+  margin-left: -20px !important;
+  margin-top: -5px !important;
+}
+.navbar{
+  background-color: #0335524a;
+ 
+}
   .tabbed-about-us .img-wrapper .img-one{
     width: 150px;
   }
