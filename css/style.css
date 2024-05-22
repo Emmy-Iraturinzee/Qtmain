@@ -55,7 +55,7 @@
 
 .cookieDescription {
   text-align: center;
-  font-size: 1em;
+ 
 
   color: rgb(172, 172, 172);
   width: 55% !important;
@@ -2183,6 +2183,13 @@ margin-top: -480px;
   }
   
 
+}
+
+.service-p1{
+  color: rgb(172, 172, 172) !important;
+  font-size: 16px !important;
+  line-height: 20px !important;
+  text-align:justify;
 }
 @media (max-width: 900px) {
   .row-grid {   
