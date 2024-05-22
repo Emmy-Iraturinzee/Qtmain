@@ -2215,6 +2215,9 @@ margin-top: -480px;
   .cookieHeading{
     margin-top: 50px;
   }
+  .marquee__img1{
+    width: 150px !important;
+  }
  
 }
 
