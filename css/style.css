@@ -20,7 +20,86 @@
   font-size: 16px !important;
 }
 
+/* welcome note */
+.card11 {
+  width: 85%;
+  height: 250px;
+  background-color:#032d4500;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 30px;
+  gap: 13px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.062);
+}
 
+#cookieSvg {
+  width: 50px;
+}
+
+#cookieSvg g path {
+  fill: rgb(97, 81, 81);
+}
+
+.cookieHeading {
+  font-size: 1.8em;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  text-align: center;
+
+}
+
+.cookieDescription {
+  text-align: center;
+  font-size: 1em;
+
+  color: rgb(172, 172, 172);
+  width: 55% !important;
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+}
+
+.acceptButton {
+  width: 80px;
+  height: 30px;
+  background-color: #7b57ff;
+  transition-duration: .2s;
+  border: none;
+  color: rgb(241, 241, 241);
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 20px;
+}
+
+.declineButton {
+  width: 80px;
+  height: 30px;
+  background-color: rgb(218, 218, 218);
+  transition-duration: .2s;
+  color: rgb(46, 46, 46);
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 20px;
+}
+
+.declineButton:hover {
+  background-color: #ebebeb;
+  transition-duration: .2s;
+}
+
+.acceptButton:hover {
+  background-color: #9173ff;
+  transition-duration: .2s;
+}
 
 /* shoting star*/
 #layers {
@@ -2099,6 +2178,10 @@ margin-top: -480px;
   #award{
     margin-top: 200px;
   }
+  .cookieHeading{
+    margin-top: 100px;
+  }
+  
 
 }
 @media (max-width: 900px) {
@@ -2121,6 +2204,9 @@ margin-top: -480px;
   }
   .app{
     display: none;
+  }
+  .cookieHeading{
+    margin-top: 50px;
   }
  
 }
