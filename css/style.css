@@ -2182,6 +2182,7 @@ margin-top: -470px;
   .cta{
     margin-top: -60px !important;
     position: absolute;
+    margin-left:-5px;
 
   }
   .planetImg{
@@ -4657,7 +4658,7 @@ figure.snip1229.hover p {
   margin-top: -5px !important;
 }
 .navbar{
-  background-color: #0335524a;
+  background-color: #010c134a;
  
  
 }
