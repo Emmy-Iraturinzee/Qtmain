@@ -2170,9 +2170,21 @@ margin-top: -480px;
 
   }
   #text{
-    margin-top: -40px !important;
+    margin-top: -180px !important;
     font-size: 32px !important;
+    position:absolute;
    
+  }
+  .cta{
+    margin-top: -20px !important;
+    position: absolute;
+
+  }
+  .planetImg{
+    width: 300px;
+   position: relative;
+  margin-left: 90px;
+  margin-top: 50px;
   }
   #approach{
     margin-top: 100px;
@@ -4636,8 +4648,8 @@ figure.snip1229.hover p {
     animation: scrolling 70s linear infinite;
 }
 .logo{
-  width: 70px !important;
-  margin-left: -20px !important;
+  width: 100px !important;
+  margin-left: -30px !important;
   margin-top: -5px !important;
 }
 .navbar{
