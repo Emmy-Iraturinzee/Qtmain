@@ -2179,7 +2179,7 @@ margin-top: -470px;
     margin: 0;
    
   }
-  .cta{
+  .cta-1{
     margin-top: -60px !important;
     position: absolute;
     margin-left:-5px;
@@ -4656,11 +4656,17 @@ figure.snip1229.hover p {
   width: 100px !important;
   margin-left: -24px !important;
   margin-top: -5px !important;
+ 
 }
 .navbar{
   background-color: #010c134a;
  
  
+}
+.container-navbar{
+
+  background-color: red !important;
+  width: 1000px !important;
 }
 .links{
   margin-top: 200px !important;
