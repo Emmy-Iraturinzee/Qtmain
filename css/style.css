@@ -1666,6 +1666,7 @@ nav .navbar .nav-links{
   line-height: 70px;
   height: 100%;
   
+  
 }
 nav .navbar .links{
   display: flex;
@@ -1876,7 +1877,7 @@ position:sticky;
     display: block;
     max-width: 270px;
     width: 100%;
-    height: 40%;
+    height: 800px;
     background-color: #054163;
     line-height: 40px;
     padding: 20px;
@@ -4658,6 +4659,20 @@ figure.snip1229.hover p {
 .navbar{
   background-color: #0335524a;
  
+ 
+}
+.links{
+  margin-top: 200px !important;
+ 
+}
+.links a{
+  font-size: 12px !important;
+ margin-left: 80px;
+
+
+}
+.links  i{
+  display: none !important;
 }
   .tabbed-about-us .img-wrapper .img-one{
     width: 150px;
