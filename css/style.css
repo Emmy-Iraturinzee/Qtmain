@@ -2182,6 +2182,10 @@ margin-top: -480px;
   .cookieHeading{
     margin-top: 100px;
   }
+  .cookieDescription{
+    width: 100% !important;
+    text-align: justify;
+  }
   
 
 }
@@ -2232,6 +2236,10 @@ margin-top: -480px;
   }
   #typewriter h1{
     width: 200% !important;
+  }
+  .cookieDescription{
+    width: 100% !important;
+    text-align: justify;
   }
  
 }
