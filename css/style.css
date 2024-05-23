@@ -883,7 +883,7 @@ body .vertical-centered-box .content {
 /* typing */
 .typewriter {
  
-  width: 100%;  
+  width: 120%;  
 }
 #text {
   overflow: hidden;
@@ -1829,8 +1829,13 @@ nav .navbar .links li:hover .js-sub-menu{
   
   
   }
-  #service{
-    margin-top: 100px !important;
+  .links i {
+   display: none !important;
+     
+     
+     }
+  #services{
+    margin-top: 70px !important;
   }
 .hero-section{
   height: 900px;
@@ -1854,10 +1859,10 @@ nav .navbar .links li:hover .js-sub-menu{
  
   #text{
     margin-top: -250px !important;
-    font-size: 35px !important;
+    font-size: 40px !important;
     position: absolute;
-    width: 120%;
-    letter-spacing: 2px !important;
+    width: 120% !important;
+    letter-spacing: 1px !important;
   }
 
   .tabs-6-1{
