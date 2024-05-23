@@ -1471,6 +1471,18 @@ h6,
 }
 
 
+.values{
+  border: 0.5px dashed #065685;
+  padding: 40px;
+
+}
+.values i{
+  
+
+}
+
+/* our values Ends */
+
 .btn-square {
     width: 38px;
     height: 38px;
