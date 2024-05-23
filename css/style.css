@@ -1474,6 +1474,7 @@ h6,
 .values{
   border: 0.5px dashed #065685;
   padding: 40px;
+  border-radius: 5px;
 
 }
 .values i{
