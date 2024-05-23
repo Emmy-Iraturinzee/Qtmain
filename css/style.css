@@ -883,7 +883,7 @@ body .vertical-centered-box .content {
 /* typing */
 .typewriter {
  
-  width: 120%;  
+  width: 100%;  
 }
 #text {
   overflow: hidden;
@@ -1834,6 +1834,10 @@ nav .navbar .links li:hover .js-sub-menu{
      
      
      }
+     .typewriter {
+ 
+      width: 120%;  
+    }
   #services{
     margin-top: -20px !important;
   }
