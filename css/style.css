@@ -2260,7 +2260,7 @@ margin-top: -400px;
  /* Tablet styles */
  @media (min-width: 481px) and (max-width: 768px) {
   #services{
-   margin-top: -320px;
+   margin-top: -280px;
     
   }
   .logo{
