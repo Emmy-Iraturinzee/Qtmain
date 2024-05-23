@@ -1834,10 +1834,7 @@ nav .navbar .links li:hover .js-sub-menu{
      
      
      }
-     .typewriter {
- 
-      width: 120%;  
-    }
+   
   #services{
     margin-top: -20px !important;
   }
@@ -2273,6 +2270,10 @@ margin-top: -400px;
   #services{
    margin-top: -320px;
     
+  }
+  .typewriter {
+ 
+    width: 120%;  
   }
 
   .service-icon1 i{
